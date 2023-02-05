@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+.pieChart-sec{
+    background-color: rgba(97, 218, 251, 0.05);
+    box-shadow: 0 0 2px rgba(128, 128, 128, 0.56);
+    border-radius: 15px;
+    margin: 30px 10px 10px 10px;
+}
+.pieChart-sec h2{
+    text-align: left;
+    font-size: 24px;
+    color: rgba(50, 202, 36, 0.93);
+    padding: 15px 0 15px 5px;
+    border-bottom: 1px solid #000;
+    margin: 5px;
+}

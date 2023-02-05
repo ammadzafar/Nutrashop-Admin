@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.site-card-border-less-wrapper {
+  padding: 30px;
+  background: #ececec;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.ant-menu.ant-menu-dark, .ant-menu-dark .ant-menu-sub, .ant-menu.ant-menu-dark .ant-menu-sub {
+  background: #245417 !important;
+}
+.ant-layout-sider {
+
+  background: #245417 !important;
+
+}
+.ant-btn-primary {
+  background: #82ca24 !important;
+  border-color: #82ca24 !important;
+  box-shadow: 0 2px 0 rgb(36 84 23) !important;
+}
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #82ca24 !important;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media only screen and (max-width: 1224px) {
+  .Responsive-1224{
+      display: none;
+  }
+}

@@ -1,0 +1,6 @@
+.example {
+    flex: 1;
+    margin-top:240px;
+    justify-content: center;
+    align-items:center;
+}

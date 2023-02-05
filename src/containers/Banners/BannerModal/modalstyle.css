@@ -1,0 +1,19 @@
+img{
+    width: 100%;
+    height: auto;
+}
+.modal-image img{
+    max-width: 200px;
+    max-height: 300px;
+}
+.modal-main{
+    display: flex;
+    justify-content: space-between;
+}
+.modal-uploader button{
+    margin-top: 30px;
+    text-align: center;
+}
+.ant-modal-footer{
+    display: none;
+}

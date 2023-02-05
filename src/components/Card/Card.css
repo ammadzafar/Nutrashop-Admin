@@ -1,0 +1,23 @@
+.site-card-border-less-wrapper{
+    height: 625px;
+}
+.cardRow{
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+@media only screen and (max-width: 1000px) {
+    .F-width{
+        width: 300px;
+        position: absolute;
+        left: -96px;
+        height: 335px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .F-width{
+        width: 200px;
+        position: absolute;
+        left: -41px;
+        height: 335px;
+    }
+}

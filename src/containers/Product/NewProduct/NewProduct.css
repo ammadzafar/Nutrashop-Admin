@@ -1,0 +1,24 @@
+.row{
+    margin-left: 16px !important;
+    margin-right: 16px !important;
+    margin-top: 16px;
+}
+.button{
+    margin: 10px;
+}
+.span{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.cardHeight{
+    height: 100%;
+}
+
+.ant-card-extra {
+    margin-left: 10px !important;
+
+}
+.addButton{
+    margin-top: 30px;
+}
+

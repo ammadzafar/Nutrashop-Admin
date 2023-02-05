@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+.Banner-main{
+    display: flex;
+    justify-content: space-between;
+}
+.New-Banner-sec{
+    width: 47%;
+    margin: 15px auto;
+    padding: 20px 10px;
+    background-color: #ececec;
+    box-shadow: 0 0px 1px midnightblue;
+}
+.new-banner-button{
+    width: 90%;
+    text-align: right;
+    margin:0 auto;
+}
+
+.Banner-content .uploader-main{
+    display: flex;
+    justify-content: space-between;
+}
+.uploader-main .image-uploader{
+    width: 45%;
+}
+
+@media(max-width:768px){
+    .Banner-main{
+        flex-direction: column;
+    }
+    .New-Banner-sec{
+        width: 98%;
+    }
+}
+

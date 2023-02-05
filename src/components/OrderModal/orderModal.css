@@ -1,0 +1,139 @@
+
+.space{
+    margin-left: 635px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.invetntory_wrap {
+    border-top: 1px solid #cecece;
+}
+@media (min-width: 1200px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1280px;
+    }
+}
+.inventory_header {
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.cart-content table {
+    border: 1px solid #cecece;
+}
+
+.cart-content thead th {
+    padding: 10px;
+    color: rgba(40, 47, 54, 0.8);
+}
+.cart-content table tr td:first-child {
+    width: 60%;
+    padding: 20px;
+}
+.cart_actions span {
+    color: red;
+}
+.cart-content table tr td {
+    padding: 15px;
+}
+.single_cart_item {
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cart_item_image {
+    height: 86px;
+    width: 86px;
+    border-radius: 8px;
+    background: center/cover no-repeat;
+    margin-right: 20px;
+}
+.cart_item_text span {
+    color: #282f36;
+    font-size: 16px;
+}
+.quantity-selector.cart {
+    width: 100px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+.quantity-selector.cart input {
+    width: 32px;
+    border: none;
+    text-align: center;
+    padding: 0;
+}
+.cart.quantity-selector > span {
+    height: 24px;
+    width: 24px;
+    background: #d8d8d8;
+    border-radius: 4px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+/* .quantity-selector.cart .input-number-increment {
+    background: #029C85;
+} */
+.cart.quantity-selector > span:hover {
+    background-color: #029c85;
+}
+.bg-color > span:hover {
+    background-color: #d8d8d8 !important;
+}
+.black {
+    color: black !important;
+}
+.price_cart,
+.quantity {
+    color: #282f36;
+    font-size: 17px;
+}
+.invetntory_wrap {
+    border-top: 1px solid #cecece;
+}
+.cart-content table {
+    border: 1px solid #cecece;
+}
+
+.cart-content table th,
+.cart-content table td {
+    border: 1px solid #cecece;
+}
+.tracting-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tracting-bar img {
+    width: 100%;
+}
+
+.Modal-Invoice{
+    display: flex;
+    justify-content: center;
+    background: #82ca24;
+    max-width: 300px;
+    margin: 12px auto 0;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Modal-Invoice button{
+    background: none;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 3px;
+}
